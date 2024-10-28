@@ -1,0 +1,14 @@
+QUESTION 1: Which section is the critical section?
+    The following lines are the critical section:
+    Line 27:     x++;
+    Line 38:     y--;
+
+------------------------------------------------------------------------
+QUESTION 2: What should be the correct value of the shared variable in the program and why?
+    The correct value of the shared variable is 1.
+    Y would decrease to 0 and then x would increment back to 1. 
+    Thread 1 and Thread 2 aren’t synchronized so that’s why this occurs.
+
+------------------------------------------------------------------------
+QUESTION 3: What is the line by line output of the program?
+    refer to q3.png
